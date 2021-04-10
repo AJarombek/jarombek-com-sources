@@ -1,0 +1,20 @@
+{
+  "name": "jss-demo",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/AJarombek/jarombek-com-sources.git",
+  "author": "Andrew Jarombek <andrew@jarombek.com>",
+  "keywords": ["JSS"],
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "jss": "^10.6.0",
+    "jss-preset-default": "^10.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
