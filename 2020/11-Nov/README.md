@@ -1,9 +1,9 @@
 # Overview
 
-Source code for software development articles in February 2020.
+Source code for software development articles in November 2020.
 
 ## Directories
 
 | Directory Name              | Corresponding Article                                                               |
 |-----------------------------|-------------------------------------------------------------------------------------|
-| `02-05-react-jest-enzyme`   | [Jest/Enzyme](https://jarombek.com/blog/feb-5-2020-react-jest-enzyme)               |    
+| `11-01-python-concurrency`  | [Python Concurrency](https://jarombek.com/blog/nov-1-2020-python-concurrency)       |    
