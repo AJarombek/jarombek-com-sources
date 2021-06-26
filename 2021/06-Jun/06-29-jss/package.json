@@ -7,11 +7,13 @@
   "keywords": ["JSS"],
   "license": "ISC",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "node server.js"
   },
   "dependencies": {
     "jss": "^10.6.0",
-    "jss-preset-default": "^10.6.0"
+    "jss-preset-default": "^10.6.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "webpack": "^5.31.2",

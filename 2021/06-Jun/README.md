@@ -1,9 +1,9 @@
 # Overview
 
-Source code for software development articles in April 2021.
+Source code for software development articles in June 2021.
 
 ## Directories
 
 | Directory Name              | Corresponding Article                                                               |
 |-----------------------------|-------------------------------------------------------------------------------------|
-| `04-25-jss`                 | [JSS](https://jarombek.com/blog/apr-25-2021-jss)                                    |    
+| `06-29-jss`                 | [JSS](https://jarombek.com/blog/jun-29-2021-jss)                                    |    

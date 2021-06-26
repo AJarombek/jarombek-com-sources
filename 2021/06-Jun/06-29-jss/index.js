@@ -15,6 +15,21 @@ const robotoSlabMixin = {
     fontFamily: 'RobotoSlab-Regular, Helvetica, serif'
 }
 
+const FeelColors = [
+    '#EA9999',
+    '#FFAD99',
+    '#EAC199',
+    '#FFD699',
+    '#FFFFAD',
+    '#E3E3E3',
+    '#C7F599',
+    '#99D699',
+    '#99C199',
+    '#A3A3FF'
+];
+
+const currentFeel = 6;
+
 const styles = {
     '@global': {
         body: {
@@ -32,7 +47,7 @@ const styles = {
     },
     exerciseLog: {
         width: '70%',
-        backgroundColor: '#99D699',
+        backgroundColor: FeelColors[currentFeel],
         border: '2px solid rgb(136, 136, 136)',
         margin: '0 auto',
         padding: 7,

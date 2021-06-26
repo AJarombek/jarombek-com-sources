@@ -13,7 +13,9 @@ npm install yarn -g
 yarn
 
 # Bundle the JavaScript with webpack
+nvm use lts/fermium
 yarn build
+yarn start
 ```
 
 ### Files
@@ -22,6 +24,7 @@ yarn build
 |--------------------------|----------------------------------------------------------------------------|
 | `index.html`             | HTML entrypoint for the demo application.                                  |
 | `index.js`               | JavaScript source code for the JSS demo application.                       |
+| `server.js`              | NodeJS/Express code for a server that hosts the JSS demo.                  |
 | `package.json`           | Entry point for the npm application.  Contains dependency definitions.     |
 | `webpack.config.js`      | Configuration file for the Webpack bundler.                                |
 | `.yarn.lock`             | Yarn dependency versions.                                                  |
